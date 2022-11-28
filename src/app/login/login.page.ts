@@ -79,7 +79,7 @@ export class LoginPage implements OnInit {
    
     this.form = new FormGroup({
       phone: new FormControl(null, {
-        validators: [Validators.required, Validators.minLength(10), Validators.maxLength(10)]
+        validators: [Validators.required, Validators.minLength(0), Validators.maxLength(20)]
       }),
     });
 
