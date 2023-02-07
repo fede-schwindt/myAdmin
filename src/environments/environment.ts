@@ -13,7 +13,7 @@ export const environment = {
     
   },
   production: false,
-  apiKey: "AIzaSyAeMk4MVpph70vAAWkIwNebjUXbLq-S9pI",
+  apiKey: "AIzaSyB0JMIZVyD-bkVw8bCwuV3cWtH6RhGYRwY",
   CountryJson: [
     {
         "name": "Afghanistan",
