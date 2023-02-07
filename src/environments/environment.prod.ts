@@ -4,15 +4,15 @@
 
 export const environment = {
   firebase: {
-    apiKey: 'AIzaSyAM7UJdVZo95dz00IKQz_p0uI8Bse5KnZ8',
-    authDomain: 'reboot-22979.firebaseapp.com',
-    projectId: 'reboot-22979',
-    storageBucket: 'reboot-22979.appspot.com',
-    messagingSenderId: '1033966813085',
+    apiKey: "AIzaSyDDeNo2RqB6hdVhZNYDNG8HjqF9m4_H8XQ",
+    authDomain: "flytaxi-642d4.firebaseapp.com",
+    databaseURL: "https://flytaxi-642d4-default-rtdb.firebaseio.com",
+    storageBucket: "flytaxi-642d4.appspot.com",
+    messagingSenderId: "482104240102",
     appId: '',
-  },
-  production: true,
-  apiKey: "AIzaSyAeMk4MVpph70vAAWkIwNebjUXbLq-S9pI",
+    },
+  production: false,
+  apiKey: "AIzaSyB0JMIZVyD-bkVw8bCwuV3cWtH6RhGYRwY",
   CountryJson: [
     {
         "name": "Afghanistan",
