@@ -4,6 +4,8 @@ import { throwError } from 'rxjs';
 import { environment } from 'src/environments/environment';
 import { GeocodeService } from './geocode.service';
 import { OverlayService } from './overlay.service';
+declare var google: any;
+
 
 @Injectable({
   providedIn: 'root'
