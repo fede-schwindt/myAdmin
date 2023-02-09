@@ -88,6 +88,12 @@ async getBoundsZoomLevel(bounds, mapDim) {
       var radX2 = Math.log((1 + sin) / (1 - sin)) / 2;
       return Math.max(Math.min(radX2, Math.PI), -Math.PI) / 2;
   }
+function initMap() {
+  const map = new google.maps.Map(document.getElementById("map"), {
+    zoom: 8,
+    center: { lat: -34.397, lng: 150.644 }
+  });
+}
 
   function zoom(mapPx, worldPx, fraction) {
       return Math.floor(Math.log(mapPx / worldPx / fraction) / Math.LN2);
