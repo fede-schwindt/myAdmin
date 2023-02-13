@@ -4,16 +4,17 @@
 
 export const environment = {
   firebase: {
-    apiKey: "AIzaSyDDeNo2RqB6hdVhZNYDNG8HjqF9m4_H8XQ",
-    authDomain: "flytaxi-642d4.firebaseapp.com",
-    databaseURL: "https://flytaxi-642d4-default-rtdb.firebaseio.com",
-    storageBucket: "flytaxi-642d4.appspot.com",
-    messagingSenderId: "482104240102",
-    appId: '',
-    },
-  production: false,
-  apiKey: "AIzaSyB0JMIZVyD-bkVw8bCwuV3cWtH6RhGYRwY",
-  CountryJson: [
+    apiKey: "AIzaSyBnD5uXvKRAFgegdQVrWZaAj3lDQnHOxU0",
+    authDomain: "flytaxi-376601.firebaseapp.com",
+    projectId: "flytaxi-376601",
+    storageBucket: "flytaxi-376601.appspot.com",
+    messagingSenderId: "661849920974",
+    appId: "",
+
+},
+production: false,
+apiKey: "AIzaSyBnD5uXvKRAFgegdQVrWZaAj3lDQnHOxU0",
+CountryJson: [
     {
         "name": "Afghanistan",
         "dialCode": "+93",
