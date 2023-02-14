@@ -49,9 +49,9 @@ export class LoginPage implements OnInit {
     if (!isPlatform('capacitor')){
       GoogleAuth.initialize();
      }
-    let country = 'Nigeria'
-     this.CountryCode = '+234'
-     this.numberT = '+234'
+    let country = 'Argentina'
+     this.CountryCode = '+54'
+     this.numberT = '+54'
 
      platform.ready().then(() => {
       if (platform.width() >= 768){
