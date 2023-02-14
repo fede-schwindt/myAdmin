@@ -10,7 +10,7 @@ export const environment = {
 		projectId: "flytaxi-376601",
 		storageBucket: "flytaxi-376601.appspot.com",
 		messagingSenderId: "661849920974",
-		appId: "1:661849920974:web:537227dc6d07445a89c79f",,
+		appId: "1:661849920974:web:537227dc6d07445a89c79f",
 
 },
 production: false,
