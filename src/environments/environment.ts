@@ -5,11 +5,12 @@
 export const environment = {
   firebase: {
     apiKey: "AIzaSyBnD5uXvKRAFgegdQVrWZaAj3lDQnHOxU0",
-    authDomain: "flytaxi-376601.firebaseapp.com",
-    projectId: "flytaxi-376601",
-    storageBucket: "flytaxi-376601.appspot.com",
-    messagingSenderId: "661849920974",
-    appId: "",
+		authDomain: "flytaxi-376601.firebaseapp.com",
+		databaseURL: "https://flytaxi-376601-default-rtdb.firebaseio.com",
+		projectId: "flytaxi-376601",
+		storageBucket: "flytaxi-376601.appspot.com",
+		messagingSenderId: "661849920974",
+		appId: "1:661849920974:web:537227dc6d07445a89c79f",,
 
 },
 production: false,
