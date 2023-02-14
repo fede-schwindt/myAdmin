@@ -12,7 +12,7 @@ export const environment = {
     appId: "",
 
 },
-production: false,
+production: true,
 apiKey: "AIzaSyBnD5uXvKRAFgegdQVrWZaAj3lDQnHOxU0",
 CountryJson: [
     {
