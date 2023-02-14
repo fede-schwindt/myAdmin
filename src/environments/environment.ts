@@ -14,7 +14,7 @@ export const environment = {
 },
 production: false,
 apiKey: "AIzaSyBnD5uXvKRAFgegdQVrWZaAj3lDQnHOxU0",
-CountryJson: [[
+CountryJson: [
     {
         "name": "Afghanistan",
         "dialCode": "+93",
